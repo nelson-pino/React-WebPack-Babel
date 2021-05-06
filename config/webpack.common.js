@@ -10,7 +10,6 @@ module.exports = {
     filename: "[name].[contenthash].js",
     publicPath: "",
   },
-  mode: "production",
   module: {
     rules: [
       {
