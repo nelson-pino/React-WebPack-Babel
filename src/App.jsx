@@ -4,13 +4,13 @@ function App() {
     const [name, setName] = useState("");
     return(
         <div className="app">
-            <h1>Hola React</h1>
+            <h1>Config: React-Webpack-Babel</h1>
             <div>
                 <label htmlFor="name">Nombre:</label>
                 <input 
                     id="name"
                     type="text"
-                    value="{name}"
+                    value={name}
                     onChange={(e) => setName(e.target.value)} 
                 />
             </div>
